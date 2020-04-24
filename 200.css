@@ -1,0 +1,36 @@
+body {
+  background-color: Gainsboro;
+  overflow: hidden;
+}
+
+.flower-container {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vase {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 45%;
+  height: 60%;
+  background-color: FloralWhite;
+  clip-path: polygon(20% 0, 66% 1%, 56% 100%, 30% 100%);
+}
+
+.table {
+  z-index: 0;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 50%;
+  background-color: SandyBrown;
+}
